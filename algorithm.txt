@@ -1,0 +1,17 @@
+2 types of users(privilages to be granted based on user type):
+	primary
+	secondary
+
+The primary and secondary user list must update every 3 seconds
+
+Use Multithreading
+
+while screen is on:(use multithreading)
+	res1 = find the user in primary user's folder using thread1
+	res2 = find the user in secondary user's folder using thread2
+	while user is valid(primary or secondary):
+		continue
+	else:
+		lock the screen
+
+// TODO: Talk to Jeff. Explain the need of a backdoor in the application. Then work on it

@@ -1,0 +1,11 @@
+1. Disable keyboard if the user is not primary(For facial as well as for speech)
+2. In case there are 2 different people in the captured image, enable keyboard only if the primary user is closer to the screen.(Determine the depth of each person in the image for this feature)
+3. 
+	#High Priority - Check for duplicate images while adding a user
+	Length of primary list = Number of images in primary folder 
+	Length of secondary list = Number of images in secondary folder 
+
+Allow to add a user through a GUI(priority : none)
+
+Implement a backdoor - 
+	If the user is away and in need of a document from his computer, he can provide his password to anyone who will be able to log in using his password, but only for one session. This backdoor must work on a certain key stroke. If the certain key stroke occurs, it will turn off the facial recognition feature of the application and will provide a normal windows login screen.
